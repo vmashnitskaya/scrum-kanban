@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Scrum vs Kanban</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/sky.css">
+	<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="one" data-background="./img/scrum_kanban.jpg"></section>
+			<section class="two">
+				<img src="./img/board.png"
+					style="display: inline-block; width: 850px; border: none; box-shadow: none; margin-top: -50px;"
+					alt="team">
+				<h4>Agenda</h4>
+				<ul class="agenda_list" style="font-size: 25px; list-style-type: upper-roman;">
+					<li>Scrum overview</li>
+					<li>Kanban overview</li>
+					<li>Scrum vs Kanban</li>
+				</ul>
+			</section>
+			<section class="three" data-background="./img/scrum.png" data-background-size="85%"></section>
+			<section class="four">
+				<h4>Scrum sprint</h4>
+				<p style="font-size: 26px;">A time-box with usually lasts 2 weeks during which a useable, and
+					potentially releasable <span style="color:#3ea3be;">product increment</span> is created.</p>
+				<img src="img/sprint.png" alt="sprint"
+					style="display: inline-block; width: 700px; border: none; box-shadow: none; margin-top: 20px;">
+			</section>
+			<section class="five">
+				<h4>Sprint goal</h4>
+				<p style="font-size: 26px;">The desired <span style="color:#3ea3be;">outcome</span> of an iteration </p>
+				<img src="img/goal.png" alt="goal"
+					style="display: inline-block; width: 1000px; border: none; box-shadow: none; margin-top: 20px;">
+			</section>
+			<section class="six">
+				<section data-background="./img/artifacts.png" data-background-size="85%"></section>
+				<section>
+					<div style="display: flex;">
+						<div style="display: flex; flex-direction: column;">
+							<h4 style="margin-top: 80px;">Product and Sprint Backlog</h4>
+							<p style="font-size: 24px; text-align: start;"><span style="color:#3ea3be;">Product
+									Backlog</span> is an
+								ordered list of the new features, changes to existing features,
+								bug fixes, infrastructure changes or other activities</p>
+							<p style="font-size: 24px; text-align: start;"><span style="color:#3ea3be;">Sprint
+									Backlog</span> is the set of Product Backlog items selected for the Sprint</p>
+						</div>
+						<img src="img/backlog.png" alt="backlog"
+							style="display: inline-block; width: 500px; border: none; box-shadow: none; margin-top: 20px;">
+					</div>
+				</section>
+				<section>
+					<h4>Scrum board</h4>
+					<p style="font-size: 24px;"><span style="color:#3ea3be;">Scrum Board</span> is a
+						tool that helps Teams
+						visualize Sprint
+						Backlog. The board can take many physical and virtual forms but it performs the same
+						function
+						regardless of how it looks.</p>
+					<div style="display: flex;">
+						<img src="img/scrum_board.png" alt="scrum board first"
+							style="display: inline-block; margin-right: 30px; width: 500px; border: none; box-shadow: none; margin-top: 20px;">
+						<img src="img/scrum_board1.png" alt="scrum board first"
+							style="display: inline-block; width: 650px; border: none; box-shadow: none; margin-top: 20px;">
+					</div>
+				</section>
+				<section>
+					<div style="display: flex;">
+						<img src="img/burndown.png" alt="burndown chart"
+							style="display: inline-block; width: 650px; border: none; box-shadow: none;  margin-right: 20px; margin-top: 20px;">
+						<div style="display: flex; flex-direction: column;">
+							<h4>Burndown chart</h4>
+							<p style="font-size: 24px;"><span style="color:#3ea3be;">Burndown
+									Chart</span> shows the
+								actual and estimated amount of work
+								to be done in a sprint.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="seven">
+				<section data-background="./img/ceremonies.png" data-background-size="75%"></section>
+				<section>
+					<div style="display: flex; flex-wrap: wrap;">
+						<div style="width: 400px; height: 200px; margin: -50px 150px 100px 0;">
+							<h6 style="font-size: 30px;">Sprint Planning</h6>
+							<p style="font-size: 24px;">The team chooses which work they can complete during the sprint
+								and moves the work from
+								the
+								product backlog to the sprint backlog.</p>
+						</div>
+						<div style="width: 400px; height: 200px; margin: -50px 0 100px 0;">
+							<h6 style="font-size: 30px;">Daily Scrum meeting</h6>
+							<p style="font-size: 24px;">A 15-minute stand-up meeting where each team
+								member talks about their
+								goals and any issues that have come up. </p>
+						</div>
+						<div style="width: 400px; height: 200px; margin: 0 150px 0 0;">
+							<h6 style="font-size: 30px;">Sprint review meeting</h6>
+							<p style="font-size: 24px;">At the end of each sprint, the team presents the work they have
+								completed at a sprint review meeting.</p>
+						</div>
+						<div style="width: 400px; height: 200px;">
+							<h6 style="font-size: 30px;">Sprint retrospective meeting</h6>
+							<p style="font-size: 24px;">The team reflects on how well Scrum is working for them and
+								talks about any changes that
+								need
+								to be made in the next sprint. </p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section class="eight" data-background="./img/role.png" data-background-size="85%">
+				</section>
+			</section>
+			<section class="nine" data-background="./img/kanban_start.jpg" data-background-size="70%">
+			</section>
+			<section class="ten" data-background="./img/kanban.png" data-background-size="60%"></section>
+			<section class="eleven" data-background="./img/principles.png" data-background-size="70%"></section>
+			<section class="twelve">
+				<h4 style="margin-top: -3s00px;">Kanban events and roles</h4>
+				<img src="img/process1.jpg" alt="process"
+					style="display: inline-block; width: 900px; border: none; box-shadow: none;  margin-right: 20px; margin-top: 20px;">
+			</section>
+			<section class="thirteen">
+				<h3>Scrum or Kanban?</h3>
+				<img src="./img/process.jpg" alt="process"
+					style="display: inline-block; margin-right: 30px; width: 1000px; border: none; box-shadow: none; margin-top: 20px;">
+			</section>
+			<section class="fourteen">
+				<h3>Similarities</h3>
+				<ul style="font-size: 30px; list-style-type: upper-roman;">
+					<li>Focus on delivering the releasable software often and early</li>
+					<li>Need breaking the work into pieces</li>
+					<li>Based on self-organizing teams</li>
+					<li>Release plan is continuously optimized and based on the empirical data (lead time/velocity)
+					</li>
+				</ul>
+			</section>
+			<section class="fifteen">
+				<h3>Differences</h3>
+				<ul style="font-size: 30px; list-style-type: upper-roman;">
+					<li>Scrum requires specific roles whereas Kanban has no required roles</li>
+					<li>Scrum is based on timeboxed iterations, combining planning, process improvement, and release. In
+						Kanban, you can choose to do these activities on a regular cadence or whenever you need</li>
+					<li>Scrum board is reset after each sprint. Kanban board is continuously used</li>
+					<li>Scrum teams require estimation, whereas Kanban doesn’t</li>
+				</ul>
+			</section>
+			<section class="sixteen">
+				<img src="./img/scrum_and_kanban.png" alt="scrum and kanban"
+					style="display: inline-block; margin-right: 30px; width: 700px; border: none; box-shadow: none; margin-top: 20px;">
+			</section>
+			<section class="seventeen">
+				<h3>Thank you for attention!</h3>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			hash: true,
+			keyboard: true,
+			overview: true,
+			touch: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/highlight/highlight.js' },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
