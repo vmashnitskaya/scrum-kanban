@@ -1,1 +1,1 @@
-scrum-kanban
+https://vmashnitskaya.github.io/scrum-kanban
